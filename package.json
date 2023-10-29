@@ -39,7 +39,7 @@
     "dht22"
   ],
   "dependencies": {
-    "node-dht-sensor": "^0.4.3"
+    "node-dht-sensor": "git+https://github.com/jninnes/node-dht-sensor.git"
   },
   "resolutions": {
     "got": "^12.1.0",
@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.7.14",
-    "@types/node-dht-sensor": "jninnes/node-dht-sensor#master",
+    "@types/node-dht-sensor": "^0.4.3",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "eslint": "^8.23.0",
